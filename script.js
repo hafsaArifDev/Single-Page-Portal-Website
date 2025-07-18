@@ -1,13 +1,13 @@
 const students = [
-  { name: "Ali Khan", course: "Math", grade: "A" },
-  { name: "Fatima Noor", course: "Science", grade: "B+" },
-  { name: "Hassan Raza", course: "History", grade: "A-" }
+  { name: "Hafsa Arif", course: "Math", grade: "A" },
+  { name: "Rimsha Nazeer", course: "Science", grade: "B+" },
+  { name: "khadijah Naseem", course: "History", grade: "A-" }
 ];
 
 const teachers = [
-  { name: "Ms. Amna", subject: "Math", classes: 3 },
-  { name: "Mr. Usman", subject: "Science", classes: 2 },
-  { name: "Mrs. Nida", subject: "English", classes: 4 }
+  { name: "Ms. Farrukh", subject: "Math", classes: 3 },
+  { name: "Mr. Saad", subject: "Science", classes: 2 },
+  { name: "Mrs. Zunaira", subject: "English", classes: 4 }
 ];
 
 function showPortal(type) {
