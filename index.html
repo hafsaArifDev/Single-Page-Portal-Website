@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portal Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Main Menu -->
+  <div class="main-screen" id="main-screen">
+    <h1>Select Your Portal</h1>
+    <div class="buttons">
+      <button onclick="showPortal('student')">Student Portal</button>
+      <button onclick="showPortal('teacher')">Teacher Portal</button>
+    </div>
+  </div>
+
+  <!-- Student Portal -->
+  <div class="portal-screen hidden" id="student-portal">
+    <h2>Welcome to Student Portal</h2>
+    <p>Here students can view their courses, assignments, and grades.</p>
+    
+    <h3>Student Records</h3>
+    <ul id="student-list">
+      <!-- Filled by JavaScript -->
+    </ul>
+
+    <button onclick="goBack()">← Go Back</button>
+  </div>
+
+  <!-- Teacher Portal -->
+  <div class="portal-screen hidden" id="teacher-portal">
+    <h2>Welcome to Teacher Portal</h2>
+    <p>Here teachers can manage classes, view submissions, and post updates.</p>
+
+    <h3>Teacher List</h3>
+    <ul id="teacher-list">
+      <!-- Filled by JavaScript -->
+    </ul>
+
+    <button onclick="goBack()">← Go Back</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
